@@ -47,7 +47,7 @@ p {
     background-color: #7E2C2C;
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     position: relative;
 }
 
@@ -61,6 +61,28 @@ p {
     position: absolute;
     top: -20px;
     right: -10px;
+}
+
+.btn-primary {
+    background-color: #994050 !important;
+    /* soft strawberry red */
+    border-color: #994050 !important;
+    padding: 10px 26px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #994050 !important;
+    /* slightly brighter red */
+    border-color: #994050 !important;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 14px rgba(255, 107, 129, 0.4);
+}
+
+.btn-primary:active {
+    transform: translateY(0) scale(0.98);
 }
 
 /* PRICES */
@@ -81,7 +103,7 @@ p {
     right: 10%;
     top: 50%;
     font-size: 80px;
-    color: rgba(255,255,255,0.1);
+    color: rgba(255, 255, 255, 0.1);
 }
 
 /* CONTACT FORM */
@@ -113,4 +135,58 @@ textarea {
 
 .btn-send:hover {
     background-color: #f5eaea;
+}
+
+
+.btn-twitter {
+    background-color: #c53f3f;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 75, 92, 0.4);
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+.btn-twitter:hover {
+    background-color: #c53f3f;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 16px rgba(255, 75, 92, 0.5);
+}
+.btn-twitter img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.btn-youtube {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: none;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+    background-color: #c53f3f;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.btn-youtube:hover {
+    background-color: #c53f3f;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 16px rgba(255, 0, 0, 0.5);
+}
+
+.btn-youtube img {
+    width: 28px;
+    height: 28px;
 }
